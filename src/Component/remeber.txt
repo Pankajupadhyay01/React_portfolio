@@ -1,0 +1,11 @@
+body:white
+main_basic:-white
+
+rounded-[30%_70%_70%_30%_/_62%_69%_31%_38%]
+ bg-[#ebad00]
+
+
+ align-items: center;
+    width: calc(50% - 10px);
+    display: flex;
+    justify-content: center;
