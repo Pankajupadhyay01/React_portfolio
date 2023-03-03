@@ -1,6 +1,7 @@
 import React from 'react'; 
 import About from '../Pages/About';
 import Hero from '../Pages/Hero';
+import Skill from '../Pages/Skill';
 import Navbar from './Navbar';
 const Portfolio = () => {
   return (
@@ -8,9 +9,7 @@ const Portfolio = () => {
       <Navbar/>
       <Hero/>
       <About/>
-      <About/>
-      <About/>
-
+      <Skill/>
     </div>
   );
 }
