@@ -6,19 +6,18 @@ const Skill = () => {
         <div>
             <Heading name={"Professionality"} />
             <div>
+                <div></div>
                 {
-                    Skills.map((pro) => (
-                        <div className='flex'>
-                            <div>{pro.name}</div>
-                            <div className='w-full block h-11 items-center bg-gray-200'> 
-                           
-                                <div className='bg-black w-[90%] h-11 '> <span className='float-right text-white'>80%</span></div>
+                    Skills.map(pro => (
+                        <div key={pro.name} className="my-[10px] w-full ">
+                            <div className='flex justify-between items-center'>
+                                <span>{pro.name}</span>
+                                <span>{pro.per}</span>
                             </div>
+                            <div className={`bg-gray-300 h-2 relative w-full before:content-['_'] before:bg-red-500 before:w-[${pro.wid}%] before:absolute before:h-2`} ></div>
                         </div>
                     ))
                 }
-
-
 
             </div>
         </div>

@@ -11,7 +11,7 @@ const About = () => {
         <div className='lg:w-[55%] text-black capitalize font-semibold text-xl text-justify flex flex-wrap m-auto align-middle'>
 
 
-          <p> Hii, This is pankaj Upadhyay. I'm from Uttrakhand.I'm a Front end web developer / Web Designer with expertise in HTML, CSS, JavaScript, React js, Tailwind, Bootstrap. I specialize in creating Pixel-Perfect custom websites and web applications that are both user-friendly and visually stunning.</p>
+          <p> Hii, This is pankaj Upadhyay. I'm from Uttrakhand.I'm a Front end web developer / Web Designer with expertise in HTML, CSS, JavaScript, jQuery, React js, Tailwind, Bootstrap. I specialize in creating Pixel-Perfect custom websites and web applications that are both user-friendly and visually stunning.</p>
 
           <p className='my-[20px]'>Apart from web devlopment Skill i can also code in core programming language like Python, Java, C++, C, etc</p>
 

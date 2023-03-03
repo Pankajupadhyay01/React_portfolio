@@ -1,26 +1,30 @@
 export default [
     {
-        name:"React",
-        per:""
+        name:"Html",
+        per:"90%",
+        wid:90
     },
     {
-        name:"Tailwind",
-        per:""
+        name:"Css",
+        per:"80%",
+        wid:80
+    },
+    {
+        name:"React",
+        per:"85%",
+        wid:90
+
+    },
+    {
+        name:"Tailwind Css",
+        per:"90%",
+        wid:90
+
     }, 
     {
         name:"Java Script",
-        per:""
-    },
-    {
-        name:"Html",
-        per:""
-    },
-    {
-        name:"Css ",
-        per:""
-    },
-    {
-        name:"Bootstrap",
-        per:""
+        per:"80%",
+        wid:50
+
     },
 ]
