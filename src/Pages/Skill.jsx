@@ -12,7 +12,7 @@ const Skill = () => {
                     <div className='container gap-y-[20px] w-full flex items-center flex-wrap'>
                        {
                         Skills.map(pro=>(
-                        <Skill_bar name={pro.name} outof={pro.outof} per={pro.per} img={pro.img}/>
+                        <Skill_bar name={pro.name} per={pro.per} img={pro.img}/>
 
                         ))}
                     </div>

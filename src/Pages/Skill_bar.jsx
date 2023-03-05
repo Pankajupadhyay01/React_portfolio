@@ -1,12 +1,12 @@
 import React from 'react';
 import { useState } from 'react';
-const Skill_bar = ({ name, img, per, outof }) => {
+const Skill_bar = ({ name, img, per}) => {
 
   return (
     <>
-      <div className='flex justify-center md:w-[calc(33.33%-10px)] lg:w-[calc(25%-10px)] items-center m-auto flex-wrap'>
+      <div className='flex justify-center md:w-[calc(33.33%-10px)] lg:w-[calc(25%-10px)] hover:scale-105 items-center m-auto flex-wrap'>
 
-        <div className="mr-[23px] my-[30px] w-[230px] h-[200px]  bg-[#9f9f9f] flex flex-col items-center relative before:bg-[white] before:absolute before:content-[''] before:h-[40px] before:w-full ">
+        <div className="mr-[23px] my-[30px] w-[230px] h-[200px]  bg-[#4070f4] flex flex-col items-center relative before:bg-[white] before:absolute before:content-[''] before:h-[40px] before:w-full ">
 
           <div className="w-[100px] h-[100px] z-[99] rounded-[50%] bg-[white] p-1 overflow-hidden bg-contain ">
 
@@ -18,13 +18,9 @@ const Skill_bar = ({ name, img, per, outof }) => {
 
             <div className="text-[25px]">{name}</div>
             <div className="text-[#ebad00]">
-              <ion-icon name="star"></ion-icon>
+               {per}<ion-icon name="star"></ion-icon>
             </div>
-            <div>
-              {per}/{outof}
-            </div>
-
-          </div>
+           </div>
         </div>
       </div>
     </>
