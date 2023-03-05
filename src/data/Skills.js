@@ -1,28 +1,35 @@
 export default [
     {
+        name:"React",
+        per:9,
+        outof:10,
+        img:"./src/assets/react.svg"    
+    },
+    {
         name:"Html",
-        per:"90%", 
-        wid:90
+        per:9,
+        outof:10,
+        img:"./src/assets/html.png"
     },
     {
         name:"Tailwind Css",
-        per:"70%", 
-        wid:70
+        per:9,
+        outof:10,
+        img:"./src/assets/tailwind.svg"
+
     }, 
     {
         name:"Css",
-        per:"80%",
-        wid:80
+        per:9,
+        outof:10,
+        img:"./src/assets/css.png"
+
     },
     {
         name:"Java Script",
-        per:"70%",
-        wid:70
+        per:9,
+        outof:10,
+        img:"./src/assets/js.png"
     },
-    {
-        name:"React",
-        per:"80%",
-        wid:80
-    },
-
+    
 ]

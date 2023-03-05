@@ -13,9 +13,9 @@ const About = () => {
 
           <p> Hii, This is pankaj Upadhyay. I'm from Uttrakhand.I'm a Front end web developer / Web Designer with expertise in HTML, CSS, JavaScript, jQuery, React js, Tailwind, Bootstrap. I specialize in creating Pixel-Perfect custom websites and web applications that are both user-friendly and visually stunning.</p>
 
-          <p className='my-[20px]'>Apart from web devlopment Skill i can also code in core programming language like Python, Java, C++, C, etc</p>
+          <p className='my-[20px] md:block hidden'>Apart from web devlopment Skill i can also code in core programming language like Python, Java, C++, C, etc</p>
 
-          I'm passionate about helping my clients achieve their goals through effective web development, and I'm always eager to take on new projects.
+        <p className=' md:block hidden'>I'm passionate about helping my clients achieve their goals through effective web development, and I'm always eager to take on new projects.</p>  
           <div className='my-3'>
             <a href=""></a>
           </div>
