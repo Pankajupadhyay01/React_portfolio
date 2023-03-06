@@ -17,9 +17,9 @@ const Skill_bar = ({ name, img, per}) => {
           <div className='flex flex-col m-auto leading-[inherit] text-center text-black font-semibold'>
 
             <div className="text-[25px]">{name}</div>
-            <div className="text-[#ebad00]">
+            {/* <div className="text-[#ebad00]">
                {per}<ion-icon name="star"></ion-icon>
-            </div>
+            </div> */}
            </div>
         </div>
       </div>
