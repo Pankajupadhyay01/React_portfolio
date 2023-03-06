@@ -1,0 +1,22 @@
+export default[
+    {
+        id:"all",
+        title:"All"
+    },
+    {
+        id:"react",
+        title:"React"
+    },
+    {
+        id:"html",
+        title:"Html&Css"
+    },
+    {
+        id:"js",
+        title:"Javascript"
+    },
+    {
+        id:"python",
+        title:"Python"
+    },
+]

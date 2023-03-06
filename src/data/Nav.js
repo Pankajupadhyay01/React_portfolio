@@ -12,8 +12,8 @@ export default [
         link:"skill"
     },
     {
-        name:"Expreince",
-        link:""
+        name:"Project",
+        link:"project"
     },
     {
         name:"Contact ",
