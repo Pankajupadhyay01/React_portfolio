@@ -44,12 +44,12 @@ const Projects = () => {
                     {
                         data.map(pro => (
 
-                            <div key={pro.title} className='flex flex-col justify-center items-center m-auto lg:w-[calc(25%-10px)] md:w-[calc(33%-10px)] flex-wrap'>
-                                <div className="flex flex-col hover:scale-105 shadow-[10px_16px_10px_gray] hover:shadow-none my-[10px] text-center bg-[#ebad00] rounded-xl">
+                            <div key={pro.title} className='flex flex-col justify-center items-center m-auto md:w-[calc(33%-10px)] flex-wrap'>
+                                <div className="flex flex-col hover:scale-105 shadow-[10px_16px_10px_gray] hover:shadow-none my-[10px] text-center bg-[linear-gradient(45deg,#4070f3,#65cdff)] rounded-xl">
                                     <div className="w-full h-full overflow-hidden">
                                         <img className='w-full hover:scale-105 rounded-xl h-full' src={pro.img} alt="" />
                                     </div>
-                                    <div className="text-[28px] text-[#4070f4]">
+                                    <div className="text-[28px] text-white">
                                         {pro.title}
                                     </div>
                                 </div>
