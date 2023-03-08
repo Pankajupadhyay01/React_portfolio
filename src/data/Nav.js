@@ -17,6 +17,6 @@ export default [
     },
     {
         name:"Contact ",
-        link:""
+        link:"contact"
     },
 ]

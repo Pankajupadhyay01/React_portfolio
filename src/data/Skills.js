@@ -1,36 +1,36 @@
 export default [
     {
         name:"React",
-        img:"./src/assets/react.svg"    
+        img:"./src/assets/icons/react.svg"    
     },
     {
         name:"Html",
-        img:"./src/assets/Html.svg"    
+        img:"./src/assets/icons/Html.svg"    
     },
     {
         name:"Tailwind Css",
-        img:"./src/assets/tailwind.svg"
+        img:"./src/assets/icons/tailwind.svg"
     }, 
     {
         name:"Git",
-        img:"./src/assets/git.svg"    
+        img:"./src/assets/icons/git.svg"    
     },
    
     {
         name:"Java Script",
-        img:"./src/assets/javascript.svg"   
+        img:"./src/assets/icons/javascript.svg"   
     },
     {
         name:"Css",
-        img:"./src/assets/css.svg"    
+        img:"./src/assets/icons/css.svg"    
     },
     {
         name:"Bootstrap",
-        img:"./src/assets/bootstrap.svg"    
+        img:"./src/assets/icons/bootstrap.svg"    
     },
     {
         name:"Wordpress",    
-        img:"./src/assets/wordpress.svg"    
+        img:"./src/assets/icons/wordpress.svg"    
     },
    
 ]

@@ -4,7 +4,7 @@ import Skills from '../data/Skills';
 import Skill_bar from './Skill_bar';
 const Skill = () => {
     return (
-        <div id="skill">
+        <div id="skill" className='bg-[aliceblue] pt-[60px]'>
             <Heading name={"Professionality"} />
             
                 <div className='w-[80%] flex m-auto mt-[40px]'>
