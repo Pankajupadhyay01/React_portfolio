@@ -1,6 +1,6 @@
 export const all = [
     { 
-        title:"Movie Review Website",
+        title:"Movie Review",
         link:"https://reactmovieapp-pankaj.netlify.app/",
         img:"./src/assets/project/movie.png"
     },
@@ -8,6 +8,10 @@ export const all = [
         title:"Hurst template Clone",
         link:"https://reactmovieapp-pankaj.netlify.app/",
         img:"./src/assets/project/hurst.png"
+    },
+    { 
+        title:"Portfolio Website",
+        img:"./src/assets/project/react.png"
     },
     // html
     { 
@@ -17,13 +21,7 @@ export const all = [
     },
     // js
     { 
-        title:"Password Genrator",
-        link:"#",
-        img:"./src/assets/img6.jpeg"
-    },
-    { 
         title:"Text Utilizer",
-        link:"#",
         img:"./src/assets/project/text.png"
     },
     { 
@@ -31,18 +29,7 @@ export const all = [
         link:"https://wetherjsapi.netlify.app",
         img:"./src/assets/project/weather.png"
     },
-    // python
-    { 
-        title:"Notepad",
-        link:"#",
-        img:"./src/assets/img6.jpeg"
-    },
-    { 
-        title:"Library Management ",        
-        link:"#",
-        img:"./src/assets/img6.jpeg"
-    },
-
+   
 ]
 
 export const react = [
@@ -52,13 +39,12 @@ export const react = [
         img:"./src/assets/project/movie.png"
     },
     { 
-        title:"Portfolio Website",
-        link:"#",
-        img:"./src/assets/project/react.png"
+        title:"Hurst template Clone",
+        link:"https://reactmovieapp-pankaj.netlify.app/",
+        img:"./src/assets/project/hurst.png"
     },
     { 
         title:"Hurst template Clone",
-        link:"#",
         img:"./src/assets/img6.jpeg"
     },
   
@@ -78,22 +64,18 @@ export const js = [
     // js
     { 
         title:"Password Genrator",
-        link:"#",
-        img:"./src/assets/img6.jpeg"
+        img:"./src/assets/project/pna.jpg"
     },
     { 
-        title:"Random Joke Genrator",
-        link:"#",
-        img:"./src/assets/img6.jpeg"
+        title:"Random Joke ",
+        img:"./src/assets/project/pna.jpg"
     },
     { 
         title:"Text Utilizer",
-        link:"#",
         img:"./src/assets/project/text.png"
     },
     { 
         title:"Count Down",
-        link:"#",
         img:"./src/assets/project/cdown.png"
     },
     { 
@@ -101,20 +83,4 @@ export const js = [
         link:"https://wetherjsapi.netlify.app",
         img:"./src/assets/project/weather.png"
     },
-]
-
-export const python = [
-   
-    // python
-    { 
-        title:"Notepad",
-        link:"https://github.com/Pankajupadhyay01/python/blob/main/notepad.pyw",
-        img:"./src/assets/img6.jpeg"
-    },
-    { 
-        title:"Student Management ",
-        link:"https://github.com/Pankajupadhyay01/python/blob/main/student%20managment%20system.pyw",
-        img:"./src/assets/img6.jpeg"
-    },
-
 ]

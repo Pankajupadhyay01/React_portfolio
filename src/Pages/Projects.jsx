@@ -1,7 +1,7 @@
 import { React, useState, useEffect } from 'react';
 import Heading from '../Component/Heading';
 import list from '../data/Project_list'
-import { all, react, html, js, python } from '../data/Project'
+import { all, react, html, js } from '../data/Project'
 const Projects = () => {
     const [select, setselect] = useState("all");
     const [data, setdata] = useState([])
@@ -19,9 +19,6 @@ const Projects = () => {
             case "js":
                 setdata(js);
                 break;
-            case "python":
-                setdata(python);
-                break;
             default:
                 setdata(all);
                 break;
@@ -38,37 +35,25 @@ const Projects = () => {
                 }
             </div>
 
-            <div className='w-full md:w-[80%] flex justify-center mx-auto mb-[40px]'>
-
-                <div className="w-full flex justify-center items-center flex-wrap">
-                    {
-                        data.map(pro => (
-
-                            <div key={pro.title} className='w-fulll flex flex-col justify-center items-center m-auto md:w-[calc(33.33%-10px)] flex-wrap'>
-
-                                <a href={pro.link} target="_blank">
-                                    <div className="flex w-full h-[41vh] flex-col hover:scale-105 shadow-[10px_16px_10px_gray] hover:shadow-none my-[10px] text-center bg-[linear-gradient(45deg,#4070f3,#65cdff)] rounded-xl">
-
-
-                                        <img className='w-full overflow-hidden rounded-xl h-full' src={pro.img} alt="" />
-
-
-                                        <div className="text-[28px] text-white">
-                                            {pro.title}
-                                        </div>
-
-                                    </div>
-                                </a>
-
+            <div className='flex w-[80%] justify-center items-center m-auto flex-wrap'>
+                {
+                    data.map(pro => (
+                        <div className='container my-[20px] bg-blue-500  hover:shadow-[0_10px_20px_gray] overflow-hidden relative flex sm:w-[calc(50%-10px)] lg:w-[calc(33.33%-10px)] flex-col h-[30vh] justify-center border-gray border-[2px] m-auto rounded-3xl'>
+                            <div className="img absolute ease-out duration-30 bg-black object-cover z-[1] w-[100%] h-[100%]">
+                                <img className="w-[100%] h-[100%]" src={pro.img} alt="" />
                             </div>
-                        ))
-                    }
+                            <a href={pro.link} target="_blank">
+                                <div className="absolute flex justify-center items-center w-full bottom-[0px] font-semibold">
+                                    <div className='w-full flex justify-center text-white text-[20px] mx-[20px]'>{pro.title}</div>
+
+                                </div>
+                            </a>
+                        </div>
+                    ))
+                }
 
 
-                </div>
             </div>
-
-
         </div>
     );
 }

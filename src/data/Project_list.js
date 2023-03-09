@@ -1,7 +1,7 @@
 export default[
     {
         id:"all",
-        title:"All"
+        title:"Featured"
     },
     {
         id:"react",
@@ -14,9 +14,5 @@ export default[
     {
         id:"js",
         title:"Javascript"
-    },
-    {
-        id:"python",
-        title:"Python"
     },
 ]

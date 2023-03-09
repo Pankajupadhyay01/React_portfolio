@@ -28,5 +28,14 @@
     border: 3px solid var(--primary);
   }
 
+  .container:hover .img{
+    transform: translateY(-30px);
+    transition: ease-in-out .5s;
+}
+
+.container:hover .img img{
+  opacity: 0.5;
+}
+
 @tailwind components;
 @tailwind utilities;

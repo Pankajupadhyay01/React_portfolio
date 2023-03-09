@@ -5,7 +5,7 @@ const Skill_bar = ({ name, img, bg}) => {
     <>
       <div className='flex justify-center md:w-[calc(33.33%-10px)] lg:w-[calc(25%-10px)] hover:scale-105 items-center m-auto flex-wrap'>
 
-        <div className={`mr-[23px] my-[30px] w-[230px] h-[200px]  bg-[linear-gradient(45deg,#4070f3,#65cdff)] flex flex-col items-center relative before:bg-[white] before:absolute before:content-[''] before:h-[40px] before:w-full `}>
+        <div className={` my-[30px] w-[230px] h-[200px] bg-[linear-gradient(45deg,#4070f3,#65cdff)] flex mx-auto flex-col items-center relative before:bg-[white] before:absolute before:content-[''] before:h-[40px] before:w-full `}>
 
           <div className="w-[100px] h-[100px] z-[99] rounded-[50%] bg-[white] p-1 overflow-hidden bg-contain ">
 
@@ -24,3 +24,6 @@ const Skill_bar = ({ name, img, bg}) => {
 }
 
 export default Skill_bar;
+
+
+{/*bg-[linear-gradient(45deg,#4070f3,#65cdff)]*/}
