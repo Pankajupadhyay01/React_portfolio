@@ -38,12 +38,12 @@ const Projects = () => {
             <div className='flex w-[80%] justify-center items-center m-auto flex-wrap'>
                 {
                     data.map(pro => (
-                        <div className='container my-[20px] bg-blue-500  hover:shadow-[0_10px_20px_gray] overflow-hidden relative flex sm:w-[calc(50%-10px)] lg:w-[calc(33.33%-10px)] flex-col h-[30vh] justify-center border-gray border-[2px] m-auto rounded-3xl'>
+                        <div className='container my-[20px] bg-blue-500 overflow-hidden hover:shadow-[0_10px_20px_gray]  relative flex sm:w-[calc(50%-10px)] lg:w-[calc(33.33%-10px)] flex-col h-[30vh] justify-center border-gray border-[2px] m-auto rounded-3xl'>
                             <div className="img absolute ease-out duration-30 bg-black object-cover z-[1] w-[100%] h-[100%]">
                                 <img className="w-[100%] h-[100%]" src={pro.img} alt="" />
                             </div>
                             <a href={pro.link} target="_blank">
-                                <div className="absolute flex justify-center items-center w-full bottom-[0px] font-semibold">
+                                <div className="absolute bottom-0 flex justify-center items-center w-full  font-semibold">
                                     <div className='w-full flex justify-center text-white text-[20px] mx-[20px]'>{pro.title}</div>
 
                                 </div>

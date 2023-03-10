@@ -1,13 +1,13 @@
 import React from 'react';
-const Skill_bar = ({ name, img, bg}) => {
+const Skill_bar = ({ name, img}) => {
 
   return (
     <>
-      <div className='flex justify-center md:w-[calc(33.33%-10px)] lg:w-[calc(25%-10px)] hover:scale-105 items-center m-auto flex-wrap'>
+      <div className='flex justify-center md:w-[calc(33.33%-10px)] hover:translate-y-[-10px] lg:w-[calc(25%-10px)] items-center m-auto flex-wrap'>
 
-        <div className={` my-[30px] w-[230px] h-[200px] bg-[linear-gradient(45deg,#4070f3,#65cdff)] flex mx-auto flex-col items-center relative before:bg-[white] before:absolute before:content-[''] before:h-[40px] before:w-full `}>
+        <div className={` my-[30px] w-[230px] h-[200px] bg-[linear-gradient(45deg,#4070f3,#65cdff)] flex mx-auto flex-col items-center relative before:bg-[white] before:absolute before:content-[''] before:h-[40px] before:w-full before:outline-none`}>
 
-          <div className="w-[100px] h-[100px] z-[99] rounded-[50%] bg-[white] p-1 overflow-hidden bg-contain ">
+          <div className="w-[100px] h-[100px] hover:scale-105 z-[99] rounded-[50%] bg-[white] p-1 overflow-hidden bg-contain ">
 
             <img className='w-full h-full rounded-[50%] bg-slate-600' src={img} alt="" />
 

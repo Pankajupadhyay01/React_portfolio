@@ -1,17 +1,17 @@
 export const all = [
     { 
-        title:"Movie Review",
+        title:"Movie Review Website",
         link:"https://reactmovieapp-pankaj.netlify.app/",
         img:"./src/assets/project/movie.png"
     },
     { 
-        title:"Hurst template Clone",
-        link:"https://reactmovieapp-pankaj.netlify.app/",
-        img:"./src/assets/project/hurst.png"
-    },
-    { 
         title:"Portfolio Website",
         img:"./src/assets/project/react.png"
+    },
+    { 
+        title:"Responsive Web Section",
+        link:"https://codepen.io/Pankaj-Upadhyay-/pens/",
+        img:"./src/assets/project/hurst.png"
     },
     // html
     { 
@@ -39,14 +39,9 @@ export const react = [
         img:"./src/assets/project/movie.png"
     },
     { 
-        title:"Hurst template Clone",
-        link:"https://reactmovieapp-pankaj.netlify.app/",
-        img:"./src/assets/project/hurst.png"
-    },
-    { 
-        title:"Hurst template Clone",
-        img:"./src/assets/img6.jpeg"
-    },
+        title:"React Portfolio",
+        img:"./src/assets/project/react.png"
+    }
   
 ]
 
@@ -56,6 +51,17 @@ export const html = [
         title:"html Portfolio",
         link:"https://pankajupadhyay01.github.io/portfolio/",
         img:"./src/assets/project/html.png"
+    },
+    { 
+        title:"HTML Section",
+        link:"https://codepen.io/Pankaj-Upadhyay-/pens/",
+        img:"./src/assets/project/hurst.png"
+    },
+    
+    { 
+        title:"Source Code Web",
+        link:"https://pankajupadhyay01.github.io/cheetport/cheet-sheet.html",
+        img:"./src/assets/project/cp.png"
     },
 ]
 
