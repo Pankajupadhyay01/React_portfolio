@@ -1,6 +1,5 @@
 import React from 'react';
 import Heading from '../Component/Heading';
-import Skill_bar from './Skill_bar';
 
 const Contact = () => {
   const list = [
