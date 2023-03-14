@@ -34,7 +34,7 @@ const Hero = () => {
                    
 
                     <div className='m-[14px,0]'>
-                    <a href="src/assets/Resume.pdf" download>
+                    <a href="assets/Resume.pdf" download>
                             <button className='outline-none p-[8px_16px] rounded-[6px] text-[26px] text-white bg-[#4070f4] hover:bg-blue-500' >Hire me</button>
                         </a>
                     </div>
