@@ -30,8 +30,8 @@ const Contact = () => {
 
        
         <div className='m-[5px,0] mb-[10px]'>
-          <a href="src/assets/img6_.png" download>
-            <button className='outline-none p-[5px_10px] rounded-[6px] text-[26px] text-white bg-[#4070f4] hover:bg-blue-500' >Let's Discuss</button>
+          <a href="src/assets/Resume.pdf" download>
+            <button className='outline-none p-[5px_10px] rounded-[6px] text-[26px] text-white bg-[#4070f4] hover:bg-blue-500' >tecpankaj24@gmail.com</button>
           </a>
         </div>
         
