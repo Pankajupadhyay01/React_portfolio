@@ -5,7 +5,7 @@ export default[
     },
     {
         id:"react",
-        title:"React"
+        title:"React/Next"
     },
     {
         id:"html",

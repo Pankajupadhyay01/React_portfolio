@@ -9,9 +9,9 @@ export const all = [
         img:"assets/project/react.png"
     },
     { 
-        title:"Responsive Web Section",
-        link:"https://codepen.io/Pankaj-Upadhyay-/pens/",
-        img:"assets/project/hurst.png"
+        title:"Next js E-com webapp ",
+        link:"https://pankaj-ecom.vercel.app/",
+        img:"assets/project/ecom.png"
     },
     // html
     { 
@@ -34,13 +34,18 @@ export const all = [
 
 export const react = [
     { 
-        title:"Movie Review Website",
+        title:"Movie Review Webapp",
         link:"https://reactmovieapp-pankaj.netlify.app/",
         img:"assets/project/movie.png"
     },
     { 
         title:"React Portfolio",
         img:"assets/project/react.png"
+    },
+    { 
+        title:"Next js E-com webapp ",
+        link:"https://pankaj-ecom.vercel.app/",
+        img:"assets/project/ecom.png"
     }
   
 ]
