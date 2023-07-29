@@ -13,6 +13,7 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.8.2",
     "react-scroll": "^1.8.9",
+    "react-spinners": "^0.13.8",
     "react-type-animation": "^2.1.2",
     "typewriter-effect": "^2.19.0"
   },

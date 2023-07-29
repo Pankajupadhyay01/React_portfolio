@@ -43,7 +43,7 @@ const Hero = () => {
 
                 <div className=" mb-7 flex flex-col align-middle items-center w-[100%] md:w-[50%] overflow-hidden">
                     <div className="md:w-[95%]  sm:w-[59%] overflow-hidden w-[80%]  mx-[10px] m-auto rounded-[30%_70%_70%_30%_/_62%_69%_31%_38%] bg-[#ebad00] ">
-                        <img className=' w-full h-full' src="/assets/img6_.png" alt="" />
+                        <img className=' w-full h-full' src="/assets/img6_.png" loading='lazy' alt="" />
                     </div>
                 </div>
 

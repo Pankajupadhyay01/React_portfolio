@@ -1,36 +1,47 @@
 export default [
     {
         name:"React",
-        img:"assets/icon/react.svg"    
+        img:"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/330px-React-icon.svg.png"    
     },
     {
         name:"Html",
-        img:"assets/icon/Html.svg"    
+        img:"https://img.icons8.com/color/48/000000/html-5--v1.png"    
     },
     {
         name:"Tailwind Css",
-        img:"assets/icon/tailwind.svg"
+        img:"https://img.icons8.com/color/48/000000/tailwindcss.png"
     },
     {
         name:"Git",
-        img:"assets/icon/git.svg"    
+        img:"https://img.icons8.com/color/48/000000/git.png"    
     },
    
     {
         name:"Java Script",
-        img:"assets/icon/javascript.svg"   
+        img:"https://img.icons8.com/color/48/000000/javascript.png"   
     },
     {
         name:"Css",
-        img:"assets/icon/css.svg"    
+        img:"https://img.icons8.com/color/48/000000/css3.png"    
     },
     {
         name:"Bootstrap",
-        img:"assets/icon/bootstrap.svg"    
+        img:"https://img.icons8.com/color/48/000000/bootstrap.png"    
     },
     {
-        name:"Wordpress",    
-        img:"assets/icon/wordpress.svg"    
+        name:"Next js ",    
+        img:"https://img.icons8.com/color/48/000000/nextjs.png"    
     },
-   
+    {
+        name:"Redux",    
+        img:"https://img.icons8.com/color/48/000000/redux.png"    
+    },
+    {
+        name:"Git hub",    
+        img:"https://img.icons8.com/color/48/000000/github.png"    
+    },
+    {
+        name:"Python",    
+        img:"https://img.icons8.com/color/48/000000/python--v1.png"    
+    },
 ]

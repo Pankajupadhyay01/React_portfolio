@@ -27,7 +27,7 @@ const Navbar = () => {
     window.addEventListener('scroll', setcolor);
     return (
         <div>
-            <nav className={`fixed z-[999] transition-all delay-200 ease-linear w-full p-[8px_20px] md:p-[30px_20px] ${sticky || nav?"bg-[#4070f4]":"bg-white"} `}>
+            <nav className={`fixed z-[999] transition-all delay-200 ease-linear w-full p-[8px_20px] md:p-[30px_20px] ${sticky || nav?"bg-[#4070f4]":"bg-[aliceblue]"} `}>
                 <div className="flex justify-between md:m-[0_27px] align-middle  items-center ">
                   
                     <div className={`md:text-[20px] text-[25px] ${sticky?"hover:text-[white]":"hover:text-[#4070f4]"} m-auto md:hidden font-semibold text-[#ebad00]`}>Portfolio.</div>

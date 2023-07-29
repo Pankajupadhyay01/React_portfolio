@@ -11,6 +11,10 @@ export default [
         name:"Skill",
         link:"skill"
     },
+    // {
+    //     name:"Experience",
+    //     link:"experience"
+    // },
     {
         name:"Project",
         link:"project"
@@ -18,5 +22,5 @@ export default [
     {
         name:"Contact ",
         link:"contact"
-    },
+    }
 ]
