@@ -1,26 +1,26 @@
-import {React,lazy} from 'react';      
-const Hero = lazy(()=>import('../Pages/Hero'))
-const About = lazy(()=>import('../Pages/About'))
-const Contact = lazy(()=>import('../Pages/Contact'))
-const Projects = lazy(()=>import('../Pages/Projects'))
-const Skill = lazy(()=>import('../Pages/Skill'))
-const Footer = lazy(()=>import('./Footer'))
-const Navbar = lazy(()=>import('./Navbar'))
+import { React, Suspense, lazy } from 'react';
+import Navbar from './Navbar';
+import Hero from '../Pages/Hero';
+import About from '../Pages/About'; 
+import Contact from '../Pages/Contact';
+import Skill from '../Pages/Skill';
+import Projects from '../Pages/Projects'
+import Footer from '../Component/Footer'; 
 
 
-const Portfolio = () => { 
+const Portfolio = () => {
   return (
-    <div> 
-      <Navbar/>
-      <Hero/>
-      <About/>
-      <Skill/> 
-      <Projects/>
-      <Contact/>
-      <Footer/>
+    <div>
+      <Navbar />
+      <Hero /> 
+        <About />
+        <Skill />
+        <Projects />
+        <Contact />
+        <Footer /> 
     </div>
   );
 }
 
 export default Portfolio;
- 
+

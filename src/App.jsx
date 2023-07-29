@@ -1,7 +1,7 @@
-import { React, lazy, useEffect, useState } from 'react';
+import { React, lazy,useEffect, useState } from 'react';
 import './App.css';
 import PuffLoader from "react-spinners/PuffLoader";
-
+import Excards from './Component/Excards';
 const Portfolio = lazy(() => import('./Component/Portfolio'))
 const App = () => {
   const [loading, setloading] = useState(true)
@@ -9,7 +9,7 @@ const App = () => {
   useEffect(() => {
     setTimeout(() => {
       setloading(false)
-    }, 2500); 
+    }, 2500);
   }, [])
 
   return (
@@ -25,7 +25,9 @@ const App = () => {
               data-testid="loader"
             />
           </div>
-          : <Portfolio />
+          :
+          <Portfolio />
+
       }
 
     </div>
