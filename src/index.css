@@ -3,37 +3,37 @@
 @tailwind base;
 
 :root {
-    --primary: #e5e7eb;
-    --secondary: cornflowerblue;
-  }
-
-* {
-    scrollbar-width: thin;
-    scrollbar-color: var(--secondary) var(--primary);
-  }
-  
-  /* Chrome, Edge, and Safari */
-  *::-webkit-scrollbar {
-    width: 13px;
-    height: 30px;
-  }
-  
-  *::-webkit-scrollbar-track {
-    background: var(--primary);
-  }
-  
-  *::-webkit-scrollbar-thumb {
-    background-color: var(--secondary);
-    border-radius: 14px;
-    border: 3px solid var(--primary);
-  }
-
-  .container:hover .img{
-    transform: translateY(-30px);
-    transition: ease-in-out .5s;
+  --primary: #e5e7eb;
+  --secondary: cornflowerblue;
 }
 
-.container:hover .img img{
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--secondary) var(--primary);
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 13px;
+  height: 30px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--primary);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--secondary);
+  border-radius: 14px;
+  border: 3px solid var(--primary);
+}
+
+.container:hover .img {
+  transform: translateY(-30px);
+  transition: ease-in-out .5s;
+}
+
+.container:hover .img img {
   opacity: 0.5;
 }
 
