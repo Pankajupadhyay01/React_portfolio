@@ -38,8 +38,8 @@ const Navbar = () => {
                     
                     <div className={`transition-all ease-linear delay-[0.3] md:flex cursor-pointer list-none md:static absolute top-0 items-center text-center md:w-full md:justify-center  w-[70%] bg-[#4070f4] h-[100vh] md:h-0 md:left-[0%] md:text-[20px] text-[20px] ${nav ? "left-[0%]":"left-[-100%]"} ${nav||sticky ? "text-white" : "text-black"}`}>
                         {
-                            Nav.map(pro => (
-                                <li key={pro.name} className='md:m-[0_20px] m-[10px]  font-bold my-9 hover:text-[#ebad00]'><Link activeClass="active" to={pro.link} spy={true} smooth={true} offset={-90} duration={500}>{pro.name}</Link></li>
+                            Nav.map((pro,i) => (
+                                <li key={i} className='md:m-[0_20px] m-[10px]  font-bold my-9 hover:text-[#ebad00]'><Link activeClass="active" to={pro.link} spy={true} smooth={true} offset={-90} duration={500}>{pro.name}</Link></li>
                             ))
                         }
                     </div>

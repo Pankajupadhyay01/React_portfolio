@@ -4,22 +4,21 @@ import PuffLoader from "react-spinners/PuffLoader";
 
 const Portfolio = lazy(() => import('./Component/Portfolio'))
 const App = () => {
-  const [loading, setloading] = useState(false)
+  const [loading, setloading] = useState(true)
 
   useEffect(() => {
-    setloading(true)
     setTimeout(() => {
       setloading(false)
-    }, 2300);
+    }, 2500); 
   }, [])
 
   return (
     <div>
       {
         loading ?
-          <div className='flex justify-center items-center m-auto h-[100vh]'>
+          <div className='flex justify-center items-center m-auto h-[100vh] bg-blue-50'>
             <PuffLoader
-              color={'rgb(49, 192, 211)'}
+              color={'#ebad00'}
               loading={loading}
               size={150}
               aria-label="Loading Spinner"

@@ -37,8 +37,8 @@ const Contact = () => {
         
          <div className='flex justify-center items-center '>
           {
-            list.map(pro => (
-              <li className='list-none mx-[10px] h-[40px] w-[40px] m-auto flex justify-center items-center rounded-[50%] bg-[#4070f4] hover:opacity-[.5] hover:bg-black'>
+            list.map((pro,i) => (
+              <li key={i} className='list-none mx-[10px] h-[40px] w-[40px] m-auto flex justify-center items-center rounded-[50%] bg-[#4070f4] hover:opacity-[.5] hover:bg-black'>
                 <a href={pro.link} target="_blank">
                   <i className={`text-3xl flex justify-center text-center text-[white]`}><ion-icon name={pro.name}></ion-icon></i>
                 </a>
