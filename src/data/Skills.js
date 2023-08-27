@@ -37,6 +37,10 @@ export default [
         img:"https://img.icons8.com/color/48/000000/redux.png"    
     },
     {
+        name:"Type Script",    
+        img:"https://img.icons8.com/color/48/000000/typescript.png"    
+    },
+    {
         name:"Git hub",    
         img:"https://img.icons8.com/color/48/000000/github.png"    
     },

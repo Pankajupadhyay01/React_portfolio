@@ -37,7 +37,7 @@ const Projects = () => {
             <div className='flex w-[80%] justify-center items-center m-auto flex-wrap'>
                 {
                     data.map((pro, i) => (
-                        <div key={i} className='container my-[20px] bg-blue-500 overflow-hidden hover:shadow-[0_10px_20px_gray]  relative flex sm:w-[calc(50%-10px)] lg:w-[calc(33.33%-10px)] flex-col h-[210px] justify-center border-gray border-[2px] m-auto rounded-3xl'>
+                        <div key={i} className='container my-[20px] bg-blue-500 overflow-hidden hover:shadow-[0_10px_20px_gray]  relative flex sm:w-[calc(50%-10px)] lg:w-[calc(33.33%-10px)] flex-col h-[200px] justify-center border-gray border-[2px] m-auto rounded-3xl'>
                             <div className="img absolute ease-out duration-30 bg-black object-cover z-[1] w-[100%] h-[100%]">
                                 <img className="w-[100%] h-[100%]" width={180} height={180} loading='lazy' src={pro.img} alt="project images" />
                             </div>
